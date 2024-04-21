@@ -15,12 +15,7 @@ def input_handler(word):
     else:
         print()
     
-
-    
-
     for l in word:
-
-
 
         data = input(f"{l}: ")
 
@@ -46,13 +41,17 @@ def input_handler(word):
         letter_count += 1
 
 print("""           WELCOME TO
-█░█░█ █▀█ █▀█ █▀▄ █░░ █▀▀   █▀ █▀█ █░░ █░█ █▀▀ █▀█
-▀▄▀▄▀ █▄█ █▀▄ █▄▀ █▄▄ ██▄   ▄█ █▄█ █▄▄ ▀▄▀ ██▄ █▀▄
+░██╗░░░░░░░██╗░█████╗░██████╗░██████╗░██╗░░░░░███████╗░░░░░░██████╗░░█████╗░████████╗
+░██║░░██╗░░██║██╔══██╗██╔══██╗██╔══██╗██║░░░░░██╔════╝░░░░░░██╔══██╗██╔══██╗╚══██╔══╝
+░╚██╗████╗██╔╝██║░░██║██████╔╝██║░░██║██║░░░░░█████╗░░█████╗██████╦╝██║░░██║░░░██║░░░
+░░████╔═████║░██║░░██║██╔══██╗██║░░██║██║░░░░░██╔══╝░░╚════╝██╔══██╗██║░░██║░░░██║░░░
+░░╚██╔╝░╚██╔╝░╚█████╔╝██║░░██║██████╔╝███████╗███████╗░░░░░░██████╦╝╚█████╔╝░░░██║░░░
+░░░╚═╝░░░╚═╝░░░╚════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚══════╝░░░░░░╚═════╝░░╚════╝░░░░╚═╝░░░
                 HOW TO USE:
             -Enter the word given from the bot to wordle.
             -The commands are:
                 -"0" for everything wrong (grey color).
-                -"1' fro everything right (green color).
+                -"1' for everything right (green color).
                 -"2" for right letter but wrong position (yellow color).
             -If there is warn for double letter and one of the two is right (green) and the other wrong (grey) send 1 for the right and nothing for the wrong.
       
